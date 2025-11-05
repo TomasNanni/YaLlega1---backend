@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace YaLlega.Entities
 {
-    internal class Product
+    public class Product
     {
         [Key]
         public int Id { get; set; }

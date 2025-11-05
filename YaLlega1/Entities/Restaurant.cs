@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace YaLlega.Entities
 {
-    internal class Restaurant
+    public class Restaurant
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

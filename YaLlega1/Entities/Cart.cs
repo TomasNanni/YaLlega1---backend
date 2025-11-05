@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace YaLlega.Entities
 {
-    internal class Cart
+    public class Cart
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

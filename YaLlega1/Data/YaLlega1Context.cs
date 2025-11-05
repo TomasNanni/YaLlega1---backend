@@ -3,7 +3,7 @@ using Mono.TextTemplating;
 using YaLlega.Entities;
 namespace YaLlega1.Data
 {
-    internal class YaLlega1Context : DbContext
+    public class YaLlega1Context : DbContext
     {
         public DbSet<Product> Products { get; set; }
 

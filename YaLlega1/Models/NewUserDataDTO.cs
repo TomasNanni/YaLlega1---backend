@@ -11,11 +11,9 @@ namespace YaLlega.Models
         public string LastName { get; set; }
         [Required]
         [EmailAddress]
-        public string EmailAdress { get; set; }<
+        public string EmailAdress { get; set; }
         [Required]
-        [PasswordPropertyText]
         public string Password { get; set; }
-        [ForeignKey("RestaurantId")]
         public Restaurant Restaurant { get; set; }
         public int RestaurantId { get; set; }
     }
